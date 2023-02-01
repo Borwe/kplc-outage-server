@@ -715,6 +715,7 @@ dependencies = [
  "anyhow",
  "kplc-outage-parser",
  "serde",
+ "tokio",
 ]
 
 [[package]]
