@@ -1,6 +1,6 @@
-# KPLC OUTPUT SERVER
+# KPLC OUTAGE SERVER
 
-This is a server that parses the kplc data.
+This is a server that parses the kplc data using the rust library [kplc-outage-parser](https://github.com/Borwe/kplc-outage-parser)
 
 ## How to use:
 Simply send a `POST` request to the url `https://kplc.fly.dev/` which is where this server is hosted for public use.
