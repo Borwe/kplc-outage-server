@@ -8,6 +8,6 @@ edition = "2021"
 [dependencies]
 actix-web = "4.3.0"
 anyhow = "1.0.68"
-kplc-outage-parser = "0.2.2"
+kplc-outage-parser = {git = "https://github.com/Borwe/kplc-outage-parser", branch = "main"}
 serde = "1.0.152"
 tokio = "1.25.0"

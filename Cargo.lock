@@ -693,9 +693,8 @@ dependencies = [
 
 [[package]]
 name = "kplc-outage-parser"
-version = "0.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f27d78972e53866413e96cb0e0b2860cedd1b0a2bfbf72e81ea88f9b75706010"
+version = "0.2.4"
+source = "git+https://github.com/Borwe/kplc-outage-parser?branch=main#e8cdd3d4b1dade1249b016aa565c300d1f332168"
 dependencies = [
  "anyhow",
  "async-trait",
