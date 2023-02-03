@@ -1,4 +1,4 @@
-use actix_web::{web, HttpServer, App, Responder, HttpResponse};
+use actix_web::{web, HttpServer, App, HttpResponse};
 use serde::{Serialize,Deserialize};
 use tokio::sync::RwLock;
 use std::sync::Arc;
